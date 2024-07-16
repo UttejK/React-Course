@@ -1,5 +1,4 @@
 # A First Look at React
----
 
 ## The Rise of Single-Page Applications
 
@@ -22,7 +21,6 @@ JavaScript front-end frameworks exists because:
 > 3. They give developers and teams a **consistent** way of building front-end applications.
 
 ## React vs Vanilla JavaScript
----
 *Example*: **React Code**
 
 ```jsx
@@ -108,3 +106,23 @@ function Message(props) {
 </html>
 ```
 
+## What is React?
+
+**Simple words:** React is a JavaScript Library for Building User Interfaces.
+
+**Crazy Explanation:** Extremely popular, Declarative, Component-Based, State-Driven *JavaScript Library for building user interfaces*, Created by Facebook.
+
+- **Based on Components**: Components are the **building blocks** of user interfaces in React.
+- **Declarative**: 
+	- We describe how components look like and how they work using a declarative syntax called JSX. 
+	- **Declarative** simply means telling react what a component should look like, based on current state/data.
+	- React is an **abstraction** away from the **DOM**: we never touch the DOM.
+	- **JSX**, a syntax that combines HTML, CSS, JavaScript as well as referencing other components.
+- **State-Driven**:
+	- React Reacts to state changes by re-rendering the UI.
+	![[State.png]]
+
+- **JavaScript Library**:
+	- React is only a JavaScript library and not a framework, as it is only the **view** layer. We need to pick multiple external libraries to build complete applications.
+	- Multiple frameworks have been built on top of react, eg., **next.js, remix**, etc.
+	- Many large companies such as **PayPal, Tesla, Netflix, IMDB, Airbnb, Drop Box**, etc. have already adopted react into their workflow.
