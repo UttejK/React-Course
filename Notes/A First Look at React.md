@@ -174,3 +174,23 @@ This is how you would write pure react in a html file.
 
 ```
 
+## How to set up a new project
+
+There are two options to setup a react project:
+
+### Create React App (create-react-app)
+- "**Complete starter kit**" for react applications.
+- Everything a developer needs is already configured *(i.e., ESLint, Prettier, Jest, etc.)*.
+- **Uses slow and outdated technologies** *(i.e., Webpack)*.
+- Best used for tutorials or experiments
+- **Not Recommended** for Real-World Applications.
+
+### Vite
+- **Modern build tool** that contains a template for setting up react applications.
+- The Developer has to manually configure ESLint, and other Developer essential tools.
+- Extremely fast **Hot Module Replacement** *(HMR)* and bundling.
+- **Recommended** for Real-World Applications.
+
+### React Frameworks
+The React team now advices to use a **React Framework** for new projects. Such as **Remix**, and **Next.js**.
+
